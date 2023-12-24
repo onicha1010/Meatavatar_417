@@ -1,0 +1,114 @@
+.imagebrand{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2%;
+    width: 100%;
+    background-color: #F7F3E9;
+}
+.imagebrand-recommend{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    background-color: #661113;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 2vh;
+    padding-top: 20px;
+    color: #fff;
+    justify-content: space-between;
+}
+.imagebrandbet{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-self: center;
+    width: 100%;
+}
+.readytoeat-recommend{
+    width: 1000px;
+}
+.readytoeat-recommend p {
+    margin: 0;
+    margin-top: 10px;
+}
+.plantbase-recommend{
+    width: 1000px;
+}
+.plantbase-recommend p{
+    margin: 0;
+    margin-top: 10px;
+}
+.new-product-text{
+    width: 100%;
+    justify-content: center;
+    font-size: 30px;
+    display: flex;
+}
+
+.imageb{
+    margin: 20px;
+    margin-top: 10px;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    scale: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imageheader{
+    font-size: 50px;
+}
+.imageb img{
+    width: 50vh;
+    height: auto;
+}
+
+
+.imagecenter img{
+    height: auto;
+}
+
+@media screen and (max-width: 700px) {
+    .imageb{
+        width: 100%;
+        margin: 0;
+        zoom: 0.8;
+    }
+    .imagebrand{
+        display: flex;
+    }
+    .imagebrandbet{
+        flex-direction: column;
+    }
+    .imagebrandbet{
+        padding-top: 0;
+        scale: 1;
+    }
+    .imagecenter{
+        margin-top: -20vh;
+    }
+    .new-product-text{
+        margin-top: 0px;
+        display: flex;
+    }
+    .imagecenter img{
+        margin-top: 80px;
+        margin-bottom: -120px;
+    }
+    .new-product-text{
+        margin-top: 10px;
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .imageb img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .new-product-text{
+        font-size: 10px;}
+}

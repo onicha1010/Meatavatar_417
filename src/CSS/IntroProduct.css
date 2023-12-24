@@ -1,0 +1,97 @@
+.intro-product {
+    display: flex;
+    margin-top: 8vh;
+    height: 80vh; /* Adjust this percentage as needed */
+    background-image: url(https://cdn.discordapp.com/attachments/445928139021877259/1180941824379068497/Ground-Beef-on-wood-02-e1679147899266-1536x1153_1_1.png?ex=657f40c7&is=656ccbc7&hm=c47bd366ac008b68e22c08b3bcbb3e039e8250a53eef96c450dc6acba352140a&);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    font-size: 50px;
+    align-items: left;
+    text-align: left;
+  }
+.intro{
+    justify-content: center;
+    width: 40%;
+    margin-left: 10vh;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.Productbtn{
+    margin-top: 10px;
+    font-size: 30px;
+    border: none;
+    padding: 10px;
+    padding-left: 150px;
+    padding-right: 150px;
+    color: #fff;
+    border-radius: 5vh;
+    background-color: #661113;
+    transition: 0.2s ease;
+    box-shadow: 0 -5px 5px inset #0000003f;
+}
+.listintro{
+    font-size: 30px;
+}
+.headerintro{
+    font-size: 30px;
+}
+.Productbtn:hover{
+    box-shadow: 0 -5px 5px inset #00000083;
+    scale: 1.05;
+}
+
+.Productbtn:active{
+    scale: 0.9;
+}
+
+@media screen and (max-width: 1400px) {
+    .intro{
+        width: 100%;
+        scale: 0.85;
+        margin-left: 0;
+        margin-top: 100px;
+    }
+    .intro-product {
+        background-position: -80px 0; 
+        height:60vh;
+    }
+    .listintro{
+        font-size: 20px;
+    }
+    .headerintro{
+        font-size: 20px;
+    }
+    .Productbtn{
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+}
+@media screen and (max-width: 300px) {
+    .intro-product{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 100px;
+    }
+    .listintro{
+        font-size: 20px;
+    }
+    .headerintro{
+        font-size: 20px;
+    }
+    .intro{
+        width: 100%;
+        margin: 0;
+        margin-left: 0;
+    }
+    .Productbtn{
+        padding: 10px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        
+    }
+}
